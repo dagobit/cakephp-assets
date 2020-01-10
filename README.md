@@ -20,7 +20,7 @@ into one single compressed file.
 You can install the plugin via composer:
 
 ```bash
-$ composer require --prefer-dist mirko-pagliai/cakephp-assets
+$ composer require dagobit/cakephp-assets
 ```
 
 After installation, you have to edit `APP/config/bootstrap.php` to load the plugin:
