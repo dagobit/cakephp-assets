@@ -1,22 +1,12 @@
 # cakephp-assets plugin
 
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
-[![Build Status](https://travis-ci.org/mirko-pagliai/cakephp-assets.svg?branch=master)](https://travis-ci.org/mirko-pagliai/cakephp-assets)
-[![codecov](https://codecov.io/gh/mirko-pagliai/cakephp-assets/branch/master/graph/badge.svg)](https://codecov.io/gh/mirko-pagliai/cakephp-assets)
-[![Build status](https://ci.appveyor.com/api/projects/status/2ir3h63d1913cyhb?svg=true)](https://ci.appveyor.com/project/mirko-pagliai/cakephp-assets)
-[![CodeFactor](https://www.codefactor.io/repository/github/mirko-pagliai/cakephp-assets/badge/develop)](https://www.codefactor.io/repository/github/mirko-pagliai/cakephp-assets/overview/develop)
+Fork Restore of [Mirko Pagliai cakephp-3.2](https://github.com/mirko-pagliai/cakephp-assets)
 
 *cakephp-assets* is a CakePHP plugin to allows you to handle and generate assets.
 
 It uses [matthiasmullie/minify](https://github.com/matthiasmullie/minify) and
 provides a convenient helper that allows you to combine multiple asset files
 into one single compressed file.
-
-Did you like this plugin? Its development requires a lot of time for me.
-Please consider the possibility of making [a donation](//paypal.me/mirkopagliai):  
-even a coffee is enough! Thank you.
-
-[![Make a donation](https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_carte.jpg)](//paypal.me/mirkopagliai)
 
 *   [Installation](#installation)
 *   [Configuration](#configuration)
@@ -31,19 +21,6 @@ You can install the plugin via composer:
 
 ```bash
 $ composer require --prefer-dist mirko-pagliai/cakephp-assets
-```
-
-**NOTE: the latest version available requires at least CakePHP 3.7**.
-
-Instead, the [cakephp3.2](//github.com/mirko-pagliai/cakephp-assets/tree/cakephp3.2)
-branch is compatible with all previous versions of CakePHP from version 3.2.4.  
-This branch coincides with the 1.4 version of *cakephp-assets* and in any
-case it will no longer receive new features but only bugfixes.
-
-In this case, you can install the package as well:
-
-```bash
-$ composer require --prefer-dist mirko-pagliai/cakephp-assets:dev-cakephp3.2
 ```
 
 After installation, you have to edit `APP/config/bootstrap.php` to load the plugin:

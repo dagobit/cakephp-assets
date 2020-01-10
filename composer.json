@@ -1,12 +1,12 @@
 {
-    "name": "mirko-pagliai/cakephp-assets",
+    "name": "dagobit/cakephp-assets",
     "description": "Assets plugin for CakePHP",
-    "homepage": "https://github.com/mirko-pagliai/cakephp-assets",
+    "homepage": "https://github.com/dagobit/cakephp-assets",
     "type": "cakephp-plugin",
     "license": "MIT",
     "authors": [{
-        "name": "Mirko Pagliai",
-        "email": "mirko.pagliai@gmail.com"
+        "name": "dagobit.com",
+        "email": "github@dagobit.com"
     }],
     "require": {
         "php": ">=5.5.9",
