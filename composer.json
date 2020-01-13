@@ -1,6 +1,6 @@
 {
     "name": "dagobit/cakephp-assets",
-    "description": "Assets plugin for CakePHP",
+    "description": "Assets plugin for CakePHP 3.x providing a way to Pipeline and Compress JS and CSS files for Performance and SEO Reasons",
     "homepage": "https://github.com/dagobit/cakephp-assets",
     "type": "cakephp-plugin",
     "license": "MIT",
